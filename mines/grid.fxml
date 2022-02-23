@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="183.0" prefWidth="168.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mines.My_controller">
+   <children>
+      <VBox maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="144.0" prefWidth="138.0">
+         <children>
+            <Button fx:id="reset" mnemonicParsing="false" prefHeight="63.0" prefWidth="134.0" text="Reset" />
+            <HBox prefHeight="25.0" prefWidth="138.0">
+               <children>
+                  <Label fx:id="width" prefHeight="35.0" prefWidth="46.0" text="width" />
+                  <TextArea fx:id="width_txt" prefHeight="10.0" prefWidth="54.0" />
+               </children>
+            </HBox>
+            <HBox layoutX="10.0" layoutY="36.0" prefHeight="25.0" prefWidth="138.0">
+               <children>
+                  <Label fx:id="height" prefHeight="35.0" prefWidth="46.0" text="height" />
+                  <TextArea fx:id="height_txt" prefHeight="10.0" prefWidth="54.0" />
+               </children>
+            </HBox>
+            <HBox layoutX="10.0" layoutY="74.0" prefHeight="25.0" prefWidth="138.0">
+               <children>
+                  <Label fx:id="mines" prefHeight="35.0" prefWidth="46.0" text="mines" />
+                  <TextArea fx:id="mines_txt" prefHeight="10.0" prefWidth="54.0" />
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+      <StackPane fx:id="StackPane" layoutX="138.0" layoutY="1.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" />
+   </children>
+</Pane>
